@@ -1,0 +1,40 @@
+.box{
+  width: 220px;
+  height: 270px;
+  box-shadow: 8px 10px 14px #CECECE;
+  float: left;
+  text-align: center;
+  background-color: #F4F1F1;
+  padding-top: 30px;
+  margin: 5px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+h2, h5{
+  font-family: "Roboto", sans-serif;
+  color: #777777;
+}
+
+p{
+  font-family: "Open Sans", sans-serif;
+}
+
+span[class^="icon"]{
+  font-size: 281%;
+}
+
+.box:hover {
+  padding-top: 20px;
+  color: white;
+  background-color: #fff;
+  -webkit-transform: scale3d(1.1);
+  color: #7AA2F4;
+  -webkit-transition: all 0.5 s ease-in-out;
+}
+
+.box:hover h2{
+  color: #7AA2F4;
+}
