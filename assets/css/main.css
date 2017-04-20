@@ -1,12 +1,12 @@
 .box{
-  width: 220px;
-  height: 270px;
+  width: 17vmax;
+  height: 23vmax;
   box-shadow: 8px 10px 14px #CECECE;
   float: left;
   text-align: center;
   background-color: #F4F1F1;
-  padding-top: 30px;
-  margin: 5px;
+  padding-top: 2vmax;
+  margin: 0.5vmax;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -18,16 +18,25 @@ h2, h5{
   color: #777777;
 }
 
+h2{
+  font-size: 2vmax;
+}
+
+h5{
+  font-size: 1.3vmax;
+}
+
 p{
   font-family: "Open Sans", sans-serif;
+  font-size: 1vmax;
 }
 
 span[class^="icon"]{
-  font-size: 281%;
+  font-size: 4vmax;
 }
 
 .box:hover {
-  padding-top: 20px;
+  padding-top: 1.25rem;
   color: white;
   background-color: #fff;
   -webkit-transform: scale3d(1.1);
